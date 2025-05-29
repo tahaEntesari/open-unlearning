@@ -1,6 +1,8 @@
 <div align="center">
-![*Open*Unlearning](assets/PDU_image.png)
-![*Open*Unlearning](assets/banner.png)
+  <img src="assets/PDU_image.png" alt="PDU Method" width="600"/>
+  <img src="assets/banner.png" alt="OpenUnlearning Banner" width="600"/>
+</div>
+
 
 <h3><strong>An easily extensible framework unifying LLM unlearning evaluation benchmarks.</strong></h3>
 
