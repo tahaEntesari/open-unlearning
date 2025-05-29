@@ -18,7 +18,7 @@
 
 ## 📖 Overview
 
-Our paper code is mainly based on open-unlearning repository.We added our method to their current repository and also new evaluatuion technique and new fine-tuned models for both tofu and muse datasets.
+Our paper code is mainly based on open-unlearning repository. We added our method to their current repository and also new evaluation metrics and new fine-tuned models for both tofu and muse datasets.
 
 We provide efficient and streamlined implementations of the TOFU, MUSE and WMDP unlearning benchmarks while supporting 9+ unlearning methods, 5+ datasets, 11+ evaluation metrics, and 7+ LLM architectures. Each of these can be easily extended to incorporate more variants.
 
