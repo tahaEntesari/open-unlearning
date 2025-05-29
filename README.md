@@ -1,5 +1,5 @@
 <div align="center">
-
+![*Open*Unlearning](assets/PDU_image.png)
 ![*Open*Unlearning](assets/banner.png)
 
 <h3><strong>An easily extensible framework unifying LLM unlearning evaluation benchmarks.</strong></h3>
