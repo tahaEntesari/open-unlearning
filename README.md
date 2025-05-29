@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/PDU_image.png" alt="PDU Method" width="600"/>
+  <img src="assets/PDU_pic.png" alt="PDU Method" width="600"/>
   <img src="assets/banner.png" alt="OpenUnlearning Banner" width="600"/>
 </div>
 
