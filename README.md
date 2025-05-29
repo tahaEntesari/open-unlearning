@@ -18,6 +18,8 @@
 
 ## 📖 Overview
 
+Our paper code is mainly based on open-unlearning repository.We added our method to their current repository and also new evaluatuion technique and new fine-tuned models for both tofu and muse datasets.
+
 We provide efficient and streamlined implementations of the TOFU, MUSE and WMDP unlearning benchmarks while supporting 8+ unlearning methods, 5+ datasets, 10+ evaluation metrics, and 7+ LLM architectures. Each of these can be easily extended to incorporate more variants.
 
 We invite the LLM unlearning community to collaborate by adding new benchmarks, unlearning methods, datasets and evaluation metrics here to expand OpenUnlearning's features, gain feedback from wider usage and drive progress in the field.
@@ -25,6 +27,13 @@ We invite the LLM unlearning community to collaborate by adding new benchmarks, 
 ---
 
 ### 📢 Updates
+
+### [May 30, 2025]
+
+- **Another Method!** We now support PDU (Primal Dual Unlearning) method.
+- **More evaluations!** LLM based Judege has been intergrated into OpenUnlearning, giving us more intuition about different methods performance for unleanrning. 
+- **More Fine-Tuned models!** Now you can access Llama 3.1 8 billion for Tofu dataset and Llama 2 13 billion for Muse dataset.  
+
 
 #### [May 12, 2025]
 
@@ -63,7 +72,7 @@ We provide several variants for each of the components in the unlearning pipelin
 |------------------------|----------------------|
 | **Benchmarks**        | [TOFU](https://arxiv.org/abs/2401.06121), [MUSE](https://muse-bench.github.io/), [WMDP](https://www.wmdp.ai/) |
 | **Unlearning Methods** | GradAscent, GradDiff, NPO, SimNPO, DPO, RMU, UNDIAL, AltPO, PDU |
-| **Evaluation Metrics** | Verbatim Probability, Verbatim ROUGE, Knowledge QA-ROUGE, Model Utility, Forget Quality, TruthRatio, Extraction Strength, Exact Memorization, 6 MIA attacks, [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) |
+| **Evaluation Metrics** | Verbatim Probability, Verbatim ROUGE, Knowledge QA-ROUGE, Model Utility, Forget Quality, TruthRatio, Extraction Strength, Exact Memorization, 6 MIA attacks, [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), LLM-based Judge |
 | **Datasets**          | MUSE-News (BBC), MUSE-Books (Harry Potter), TOFU (different splits), WMDP-Bio, WMDP-Cyber |
 | **Model Families**    | TOFU: LLaMA-3.2, LLaMA-3.1, LLaMA-2; MUSE: LLaMA-2; Additional: Phi-3.5, Phi-1.5, Gemma, Zephyr |
 
@@ -217,6 +226,8 @@ If you use OpenUnlearning in your research, please cite OpenUnlearning and the b
   archivePrefix={arXiv},
   primaryClass={cs.CL},
   url={https://arxiv.org/abs/2407.06460},
+}
+@article{PDU
 }
 ```
 </details>
