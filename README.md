@@ -37,13 +37,14 @@ We invite the LLM unlearning community to collaborate by adding new benchmarks, 
 - **More Fine-Tuned models!** Now you can access Llama 3.1 8 billion for Tofu dataset and Llama 2 13 billion for Muse dataset.  
 
 
+<details>
+<summary><b>Older Updates</b></summary>
+
+
 #### [May 12, 2025]
 
 - **Another benchmark!** We now support running the [`WMDP`](https://wmdp.ai/) benchmark with its `Zephyr` task model.
 - **More evaluations!**  The [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness) toolkit has been integrated into OpenUnlearning, enabling WMDP evaluations and support for popular general LLM benchmarks, including MMLU, GSM8K, and others.
-
-<details>
-<summary><b>Older Updates</b></summary>
 
 #### [Apr 6, 2025]
 - **More Metrics!** Added 6 Membership Inference Attacks (MIA) (LOSS, ZLib, Reference, GradNorm, MinK, and MinK++), along with Extraction Strength (ES) and  Exact Memorization (EM) as additional evaluation metrics.
