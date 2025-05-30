@@ -34,7 +34,7 @@ We invite the LLM unlearning community to collaborate by adding new benchmarks, 
 
 - **Another Method!** We now support PDU (Primal Dual Unlearning) method.
 - **More evaluations!** LLM based Judege has been intergrated into OpenUnlearning, giving us more intuition about different methods performance for unleanrning. 
-- **More Fine-Tuned models!** Now you can access Llama 3.1 8 billion for Tofu dataset and Llama 2 13 billion for Muse dataset.  
+- **More Fine-Tuned models!** Now you can access Gemma 7 billion for Tofu dataset and Llama 2 13 billion for Muse dataset.  
 
 
 <details>
