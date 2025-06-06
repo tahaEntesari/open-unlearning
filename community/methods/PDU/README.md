@@ -1,5 +1,4 @@
-# TITLE
-- Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models
+# Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models
 
 
  We propose a new formulation of LLM unlearning
@@ -13,7 +12,7 @@ We solve the constrained problem using a scalable primal-dual algorithm that exp
 
 Experimental setup
 
-- [x] **Hyperparameters & Search Space:** Please see the corresponding paper for details of the hyperparameter. Importantly
+-  **Hyperparameters & Search Space:** Please see the corresponding [paper](https://arxiv.org/abs/2506.05314) for details of the hyperparameter. Importantly
     to produce good results using our method, it is vital the hyperparameter `retain_loss_eps` is set to an appropriate value.
     To choose such a value, simply look at the value of the retain loss of the pretrained model and choose
     an appropriately larger value than this starting value.
@@ -21,7 +20,7 @@ Experimental setup
     Note that our method's loss is a quadratic function of a difference in the logit spaces. Consequently, 
     the value of this loss can be large. As a result, it is natural that we set the initial parameter of the
     retain loss preference to 50 or 100.
-- [x] **Computational Setup:** Please see the Supplementary Material in the paper.
+-  **Computational Setup:** Please see the Supplementary Material in the paper.
 
 # Results
 
@@ -34,25 +33,12 @@ All unlearned models are available under https://huggingface.co/tamarsonha.
 
 If you use this work, please cite:
 
-[//]: # ()
-[//]: # (```bibtex)
 
-[//]: # ()
-[//]: # (<YOUR CITATION bibtex>)
-
-[//]: # ()
-[//]: # (@misc{openunlearning2025,)
-
-[//]: # (  title={Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models},)
-
-[//]: # (  author={Taha Entesari, Arman Hatami, Mahyar Fazlya},)
-
-[//]: # (  year={2025},)
-
-[//]: # (  howpublished={\url{https://github.com/locuslab/open-unlearning}},)
-
-[//]: # (  note={Accessed: February 27, 2025})
-
-[//]: # (})
-
-[//]: # (```)
+[//]: @misc{entesari2025constrainedentropicunlearningprimaldual,
+      title={Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models}, 
+      author={Taha Entesari and Arman Hatami and Rinat Khaziev and Anil Ramakrishna and Mahyar Fazlyab},
+      year={2025},
+      eprint={2506.05314},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.05314},}
