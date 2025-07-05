@@ -34,25 +34,15 @@ All unlearned models are available under https://huggingface.co/tamarsonha.
 
 If you use this work, please cite:
 
-[//]: # ()
-[//]: # (```bibtex)
 
-[//]: # ()
-[//]: # (<YOUR CITATION bibtex>)
+```bibtex
 
-[//]: # ()
-[//]: # (@misc{openunlearning2025,)
 
-[//]: # (  title={Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models},)
+@article{entesari2025constrained,
+  title={Constrained Entropic Unlearning: A Primal-Dual Framework for Large Language Models},
+  author={Entesari, Taha and Hatami, Arman and Khaziev, Rinat and Ramakrishna, Anil and Fazlyab, Mahyar},
+  journal={arXiv preprint arXiv:2506.05314},
+  year={2025}
+}
 
-[//]: # (  author={Taha Entesari, Arman Hatami, Mahyar Fazlya},)
-
-[//]: # (  year={2025},)
-
-[//]: # (  howpublished={\url{https://github.com/locuslab/open-unlearning}},)
-
-[//]: # (  note={Accessed: February 27, 2025})
-
-[//]: # (})
-
-[//]: # (```)
+```
