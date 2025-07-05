@@ -27,6 +27,6 @@ class SimNPO(GradDiff):
         }
         retain_loss = self.compute_retain_loss(model=model, retain_inputs=retain_inputs)
 
-        loss = self.final_loss_value([forget_loss, retain_loss])
+        loss = self.gamma * forget_loss + self.alpha * retain_loss
 
         return (loss, forget_outputs) if return_outputs else loss
