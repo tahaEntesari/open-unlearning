@@ -26,6 +26,10 @@ We invite the LLM unlearning community to collaborate by adding new benchmarks, 
 
 ---
 
+> 📝 If you've found this repository or the models we've provided in [HuggingFace](https://huggingface.co/open-unlearning) useful, please cite our [technical report](https://arxiv.org/abs/2506.12618) (bibtex at [*Citing this work*](#-citing-this-work)).
+
+---
+
 ### 📢 Updates
 
 ### [June 20, 2025]
@@ -68,7 +72,6 @@ Be sure to run `python setup_data.py` immediately after merging the latest versi
 
 </details>
 
-
 ---
 
 ## 🗃️ Available Components
@@ -84,6 +87,7 @@ We provide several variants for each of the components in the unlearning pipelin
 | **Model Families**    | TOFU: Llama-3.2, Llama-3.1, Llama-2; MUSE: Llama-2; Additional: Phi-3.5, Phi-1.5, Gemma, Zephyr |
 
 ---
+
 
 ## 📌 Table of Contents
 - 📖 [Overview](#-overview)
@@ -216,7 +220,8 @@ If you use OpenUnlearning in your research, please make sure to cite our OpenUnl
   title={{OpenUnlearning}: Accelerating {LLM} Unlearning via Unified Benchmarking of Methods and Metrics},
   author={Dorna, Vineeth and Mekala, Anmol and Zhao, Wenlong and McCallum, Andrew and Lipton, Zachary C and Kolter, J Zico and Maini, Pratyush},
   journal={arXiv preprint arXiv:2506.12618},
-  year={2025},,
+  year={2025},
+  url={https://arxiv.org/abs/2506.12618}
 }
 @inproceedings{maini2024tofu,
   title={{TOFU}: A Task of Fictitious Unlearning for {LLMs}},
@@ -231,7 +236,7 @@ If you use OpenUnlearning in your research, please make sure to cite our OpenUnl
   eprint={2407.06460},
   archivePrefix={arXiv},
   primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2407.06460},
+  url={https://arxiv.org/abs/2407.06460}
 }
 ```
 </details>
